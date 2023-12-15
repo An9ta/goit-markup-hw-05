@@ -527,4 +527,5 @@ img {
   height: 4px;
   background-color: var(--link-hover-focus);
   border-radius: 2px;
+  width: 100%;
 }
