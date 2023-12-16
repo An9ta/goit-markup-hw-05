@@ -12,6 +12,7 @@
   --cornflower: #e7e9fc;
   --customers-icons: #8e8f99;
   --footer-media-icons: #31d0aa;
+  --modal-color: #fcfcfc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -546,4 +547,34 @@ img {
   background-color: var(--link-hover-focus);
   border-radius: 2px;
   width: 100%;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.close-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 408px;
+  min-height: 584px;
+  background: var(--modal-color);
+  box-shadow: z wartościami 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
