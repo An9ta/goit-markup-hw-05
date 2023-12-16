@@ -548,7 +548,7 @@ img {
   border-radius: 2px;
   width: 100%;
 }
-.modal {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -563,7 +563,7 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
-.close-btn {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
