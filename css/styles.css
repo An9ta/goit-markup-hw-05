@@ -563,7 +563,6 @@ img {
 .all-both:hover,
 .all-both:focus {
   background-color: var(--link-hover-focus);
-  border: none;
 }
 
 .page {
