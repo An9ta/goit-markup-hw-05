@@ -276,7 +276,6 @@ img {
 .address {
   font-style: normal;
   display: flex;
-  padding: 24px 0;
 }
 .address-link {
   font-size: 16px;
@@ -286,6 +285,8 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
+  display: inline-block;
 }
 .address-link:focus,
 .address-link:hover {
@@ -371,7 +372,8 @@ img {
 }
 .menu {
   display: flex;
-  gap: 332px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .list-images {
   display: flex;
